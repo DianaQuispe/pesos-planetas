@@ -1,7 +1,7 @@
-
 var masa = prompt("Ingrese su peso actual");
 
-var planetasC = [["mercurio", 3.70], ["venus", 8.87], ["marte", 3.71], ["jupiter", 23.12], ["saturno", 8.96], ["urano", 8.69], ["neptuno", 11], ["pluton", 0.81]]
+var planetasC = [["Mercurio", 3.70], ["Venus", 8.87], ["Marte", 3.71], ["Jupiter", 23.12], ["Saturno", 8.96], ["Urano", 8.69], ["Neptuno", 11], ["Pluton", 0.81]]
+
 
 function calcular(masa){
 	var pesoFinal;
