@@ -8,17 +8,14 @@ function calcular(masa, planeta){
 	//planeta = planeta.toLowerCase();
 	var pesoFinal;
 	for(var i = 0; i< planetasC.length; i++ ){
+		console.log(planetasC[i][0]);
 		if(planeta == planetasC[i][0]){
 			pesoFinal = masa * planetasC[i][1];
-			pesoFinal = pesoFinal.toFixed(2);	
-		}
-		else{
-			return "No es un planeta del Sistema Solar";
+			pesoFinal = pesoFinal.toFixed(2);
 		}
 	}
 	return pesoFinal;
 }
 
 var resp = calcular(masa, planeta);
-
 alert(resp);
